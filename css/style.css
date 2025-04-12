@@ -111,6 +111,7 @@ HEADER
 }
 
 .list-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -283,13 +284,9 @@ footer {
   display: inline-block;
   margin-bottom: 16px;
 }
-.footer-container {
-  display: inline-block;
-  max-width: 264px;
-  margin-left: 156px;
-}
 .footer-text {
   color: #f4f4fd;
+  max-width: 264px;
 }
 .footer-logo-span {
   color: #f4f4fd;
