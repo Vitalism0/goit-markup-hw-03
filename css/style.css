@@ -87,9 +87,9 @@ HEADER
   display: flex;
   gap: 40px;
 }
-.menu-nav li {
+/* .menu-nav li {
   padding: 24px 0 24px;
-}
+} */
 .contacts-list {
   display: flex;
   gap: 40px;
@@ -116,6 +116,7 @@ HEADER
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0 24px;
 }
 .list-link:hover,
 .list-link:focus {
@@ -282,7 +283,7 @@ footer {
 }
 .footer-container {
   display: inline-block;
-  padding: 100px 0 100px;
+  padding: 100px 0;
   max-width: 264px;
   margin-left: 156px;
 }
