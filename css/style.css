@@ -186,10 +186,13 @@ FEATURES-SECTION
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
   border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .features-list {
   display: flex;
@@ -262,8 +265,8 @@ PORTFOLIO-SECTION
 }
 .portfolio-content {
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /* 
 ///////////////
@@ -279,7 +282,7 @@ footer {
 }
 .footer-container {
   display: inline-block;
-  padding: 100px 0;
+  padding: 100px 0 100px;
   max-width: 264px;
   margin-left: 156px;
 }
