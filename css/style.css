@@ -88,7 +88,7 @@ HEADER
   gap: 40px;
 }
 .menu-nav li {
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 .contacts-list {
   display: flex;
@@ -262,6 +262,7 @@ PORTFOLIO-SECTION
 }
 .portfolio-content {
   padding: 32px 16px;
+  border-top: none;
   border: 1px solid #e7e9fc;
 }
 /* 
@@ -274,13 +275,13 @@ footer {
 }
 .footer-logo {
   display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: inline-block;
   padding: 100px 0;
   max-width: 264px;
+  margin-left: 156px;
 }
 .footer-text {
   color: #f4f4fd;
